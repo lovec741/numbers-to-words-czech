@@ -7,5 +7,5 @@ Usage: <br />
 `cislo_na_text(10**12) -> 'bilion'`
 
 !Documentation is in Czech!<br />
-!The 'number_to_words - nechutno kod.py' file is a intentionally terribly written code that has the same function as the main 'number_to_words.py' file, don't use it, just admire its disgustingness!
+**!The 'number_to_words - nechutno kod.py' file is a intentionally terribly written code that has the same function as the main 'number_to_words.py' file, don't use it, just admire its disgustingness!**
 
