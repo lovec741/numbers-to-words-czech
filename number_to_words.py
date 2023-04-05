@@ -246,9 +246,9 @@ def cislo_na_text(num: int, form: bool=False) -> str:
     if num == 0:
         return "nula"
     if num >= 10**66:
-        assert Exception("Moc velké číslo! Nejsou povolena čísla rovná nebo větší než 10^66.")
+        raise Exception("Moc velké číslo! Nejsou povolena čísla rovná nebo větší než 10^66.")
     elif num <= -10**66:
-        assert Exception("Moc malé číslo! Nejsou povolena čísla rovná nebo menší než -10^66.")
+        raise Exception("Moc malé číslo! Nejsou povolena čísla rovná nebo menší než -10^66.")
     # uložíme jestli je zadané číslo záporné nebo kladné a převedeme ho na kladné
     negative = False
     if num < 0:
